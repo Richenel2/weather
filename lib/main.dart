@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:weather/constants.dart/theme.dart';
+import 'package:weather/screens/loading_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,11 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Container(),
+      theme: AppTheme.dark,
+      home: const LoadingPage(),
     );
   }
 }
