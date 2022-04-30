@@ -22,7 +22,7 @@ class AppTheme {
         headline1: TextStyle(
             fontSize: 40, color: AppColors.black, fontWeight: FontWeight.w900),
         headline2: TextStyle(
-            fontSize: 28, color: AppColors.black, fontWeight: FontWeight.w700),
+            fontSize: 28, color: AppColors.black, fontWeight: FontWeight.w800),
         headline3: TextStyle(fontSize: 24, color: AppColors.gray),
         headline4: TextStyle(fontSize: 16, color: AppColors.gray),
         bodyText2: TextStyle(fontSize: 14, color: AppColors.white),
